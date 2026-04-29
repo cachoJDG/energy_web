@@ -25,6 +25,9 @@ Python web app (Streamlit) to analyze household energy usage, forecast future de
 - Data quality diagnostics panel (coverage, missing hours, range, mean/max).
 - Automatic detection of cumulative meter series and conversion to hourly deltas.
 - Automatic recommendations based on usage patterns.
+- Standard appliance shifting recommendations for loads such as washing machines, dishwashers, and dryers.
+- EV charging recommendations with partial-charge and overnight charging windows to reduce household peaks.
+- Dedicated appliance-data upload for files like `elecdom_courbes_horaires_detail_appareils.csv`, with appliance-level hourly profile inspection and recommendations.
 
 ## Accepted input format
 
@@ -35,6 +38,7 @@ It can parse either of these structures:
 1. `datetime`, `consumption_kWh`
 2. `fecha/date`, `hora/hour`, `consumption_kWh`
 3. Open Power System Data household structure (multi-header with sheets like `60min` or `15min`)
+4. Appliance-specific hourly profile files with columns such as `appareil`, `periode`, `tranche_horaire`, `consommation_Wh/h`
 
 It also recognizes common consumption column variants (`consumo_kWh`, `consumo`, `kWh`, `consumption`, `energy_kWh`, etc.).
 
