@@ -1,0 +1,625 @@
+num_annee;lib_annee;appareil;Nb appareils considérés;periode;tranche_horaire;consommation_Wh/h
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[0,1[;39,4
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[1,2[;38,6
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[2,3[;38,3
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[3,4[;37,1
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[4,5[;36,7
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[5,6[;36,0
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[6,7[;36,4
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[7,8[;37,3
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[8,9[;37,5
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[9,10[;37,6
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[10,11[;37,4
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[11,12[;37,9
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[12,13[;39,5
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[13,14[;41,1
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[14,15[;40,4
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[15,16[;39,6
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[16,17[;39,9
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[17,18[;40,3
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[18,19[;41,4
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[19,20[;43,5
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[20,21[;45,2
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[21,22[;43,7
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[22,23[;42,0
+1;Avril 2019 - Avril 2020;Réfricongélateur;87;Toutes saisons;[23,24[;40,6
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[0,1[;19,0
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[1,2[;18,8
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[2,3[;18,2
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[3,4[;17,7
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[4,5[;17,5
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[5,6[;17,2
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[6,7[;17,6
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[7,8[;17,9
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[8,9[;17,8
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[9,10[;18,0
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[10,11[;17,9
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[11,12[;18,4
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[12,13[;19,3
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[13,14[;19,7
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[14,15[;19,3
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[15,16[;19,1
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[16,17[;19,1
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[17,18[;19,5
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[18,19[;19,8
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[19,20[;21,2
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[20,21[;22,1
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[21,22[;21,3
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[22,23[;20,2
+1;Avril 2019 - Avril 2020;Réfrigérateur;28;Toutes saisons;[23,24[;19,2
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[0,1[;33,0
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[1,2[;32,9
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[2,3[;32,7
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[3,4[;32,3
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[4,5[;32,0
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[5,6[;31,9
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[6,7[;31,7
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[7,8[;31,7
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[8,9[;31,6
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[9,10[;31,6
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[10,11[;31,9
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[11,12[;32,2
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[12,13[;32,7
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[13,14[;33,2
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[14,15[;33,3
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[15,16[;33,5
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[16,17[;33,6
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[17,18[;33,8
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[18,19[;34,1
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[19,20[;34,3
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[20,21[;34,6
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[21,22[;34,2
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[22,23[;33,9
+1;Avril 2019 - Avril 2020;Congélateur;56;Toutes saisons;[23,24[;33,4
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[0,1[;7,3
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[1,2[;6,0
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[2,3[;5,7
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[3,4[;5,4
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[4,5[;7,1
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[5,6[;4,9
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[6,7[;3,3
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[7,8[;6,8
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[8,9[;13,3
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[9,10[;19,5
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[10,11[;23,4
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[11,12[;21,8
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[12,13[;19,3
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[13,14[;16,5
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[14,15[;14,5
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[15,16[;12,1
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[16,17[;11,4
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[17,18[;12,2
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[18,19[;13,7
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[19,20[;14,0
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[20,21[;10,7
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[21,22[;10,0
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[22,23[;8,5
+1;Avril 2019 - Avril 2020;Lave-linge;100;Toutes saisons;[23,24[;9,1
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[0,1[;24,5
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[1,2[;21,3
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[2,3[;17,7
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[3,4[;12,4
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[4,5[;8,3
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[5,6[;3,9
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[6,7[;3,5
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[7,8[;9,6
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[8,9[;19,0
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[9,10[;22,2
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[10,11[;21,9
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[11,12[;14,5
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[12,13[;16,1
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[13,14[;30,1
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[14,15[;34,4
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[15,16[;21,9
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[16,17[;13,9
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[17,18[;11,7
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[18,19[;11,4
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[19,20[;14,7
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[20,21[;31,8
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[21,22[;35,9
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[22,23[;21,3
+1;Avril 2019 - Avril 2020;Lave-vaisselle;72;Toutes saisons;[23,24[;22,4
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[0,1[;18,5
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[1,2[;18,0
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[2,3[;12,5
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[3,4[;8,0
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[4,5[;9,8
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[5,6[;9,0
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[6,7[;17,5
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[7,8[;30,3
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[8,9[;32,8
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[9,10[;33,6
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[10,11[;36,8
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[11,12[;51,4
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[12,13[;59,7
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[13,14[;55,6
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[14,15[;51,2
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[15,16[;43,9
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[16,17[;44,2
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[17,18[;51,0
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[18,19[;53,6
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[19,20[;48,4
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[20,21[;44,2
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[21,22[;40,1
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[22,23[;29,3
+1;Avril 2019 - Avril 2020;Sèche-linge;31;Toutes saisons;[23,24[;24,6
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[0,1[;6,6
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[1,2[;6,4
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[2,3[;6,3
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[3,4[;6,3
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[4,5[;6,2
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[5,6[;6,2
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[6,7[;6,2
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[7,8[;6,2
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[8,9[;6,3
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[9,10[;6,4
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[10,11[;6,4
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[11,12[;6,5
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[12,13[;6,6
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[13,14[;6,6
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[14,15[;6,6
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[15,16[;6,6
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[16,17[;6,7
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[17,18[;6,7
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[18,19[;6,9
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[19,20[;7,0
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[20,21[;7,3
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[21,22[;7,4
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[22,23[;7,3
+1;Avril 2019 - Avril 2020;Box TV;101;Toutes saisons;[23,24[;7,0
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[0,1[;15,7
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[1,2[;9,5
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[2,3[;6,1
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[3,4[;4,7
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[4,5[;3,9
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[5,6[;3,8
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[6,7[;5,5
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[7,8[;10,6
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[8,9[;14,7
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[9,10[;16,0
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[10,11[;17,2
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[11,12[;18,5
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[12,13[;23,6
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[13,14[;27,1
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[14,15[;24,6
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[15,16[;23,0
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[16,17[;22,7
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[17,18[;25,7
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[18,19[;31,3
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[19,20[;38,5
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[20,21[;43,9
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[21,22[;45,7
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[22,23[;41,4
+1;Avril 2019 - Avril 2020;Téléviseurs;101;Toutes saisons;[23,24[;27,8
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[0,1[;10,9
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[1,2[;8,9
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[2,3[;7,8
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[3,4[;7,2
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[4,5[;6,9
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[5,6[;6,8
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[6,7[;6,8
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[7,8[;7,1
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[8,9[;7,5
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[9,10[;8,3
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[10,11[;9,3
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[11,12[;10,0
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[12,13[;10,3
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[13,14[;11,1
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[14,15[;12,0
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[15,16[;12,3
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[16,17[;12,4
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[17,18[;13,5
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[18,19[;14,8
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[19,20[;15,0
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[20,21[;15,5
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[21,22[;17,9
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[22,23[;17,9
+1;Avril 2019 - Avril 2020;Autres audiovisuel;101;Toutes saisons;[23,24[;14,7
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[0,1[;1,6
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[1,2[;1,6
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[2,3[;1,1
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[3,4[;1,6
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[4,5[;1,2
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[5,6[;1,4
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[6,7[;5,5
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[7,8[;4,7
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[8,9[;4,6
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[9,10[;6,8
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[10,11[;15,8
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[11,12[;33,1
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[12,13[;48,5
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[13,14[;25,2
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[14,15[;12,0
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[15,16[;11,2
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[16,17[;11,4
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[17,18[;20,9
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[18,19[;54,8
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[19,20[;91,7
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[20,21[;60,2
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[21,22[;23,4
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[22,23[;7,6
+1;Avril 2019 - Avril 2020;Cuisinière;16;Toutes saisons;[23,24[;2,4
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[0,1[;3,3
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[1,2[;3,1
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[2,3[;1,8
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[3,4[;1,4
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[4,5[;1,4
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[5,6[;1,3
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[6,7[;1,9
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[7,8[;4,2
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[8,9[;6,7
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[9,10[;8,0
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[10,11[;11,7
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[11,12[;21,2
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[12,13[;47,9
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[13,14[;34,5
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[14,15[;10,6
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[15,16[;5,9
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[16,17[;7,9
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[17,18[;13,6
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[18,19[;28,2
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[19,20[;63,6
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[20,21[;51,0
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[21,22[;19,8
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[22,23[;6,6
+1;Avril 2019 - Avril 2020;Plaques de cuisson;49;Toutes saisons;[23,24[;3,4
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[0,1[;3,3
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[1,2[;4,3
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[2,3[;7,3
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[3,4[;7,2
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[4,5[;4,0
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[5,6[;4,0
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[6,7[;5,0
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[7,8[;4,8
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[8,9[;5,5
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[9,10[;8,7
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[10,11[;14,9
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[11,12[;28,3
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[12,13[;44,9
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[13,14[;29,0
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[14,15[;13,1
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[15,16[;11,9
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[16,17[;12,5
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[17,18[;18,6
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[18,19[;33,3
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[19,20[;67,8
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[20,21[;46,4
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[21,22[;17,2
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[22,23[;5,8
+1;Avril 2019 - Avril 2020;Fours encastrés;64;Toutes saisons;[23,24[;3,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[0,1[;4,7
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[1,2[;6,0
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[2,3[;5,6
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[3,4[;4,6
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[4,5[;6,9
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[5,6[;4,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[6,7[;6,3
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[7,8[;9,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[8,9[;14,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[9,10[;8,9
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[10,11[;5,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[11,12[;6,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[12,13[;13,6
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[13,14[;14,2
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[14,15[;8,1
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[15,16[;6,8
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[16,17[;4,1
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[17,18[;6,0
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[18,19[;7,8
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[19,20[;13,2
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[20,21[;14,1
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[21,22[;7,4
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[22,23[;4,2
+1;Avril 2019 - Avril 2020;Fours micro-ondes;89;Toutes saisons;[23,24[;5,0
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[0,1[;10,7
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[1,2[;10,5
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[2,3[;10,5
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[3,4[;10,5
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[4,5[;10,4
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[5,6[;10,4
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[6,7[;10,5
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[7,8[;10,6
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[8,9[;10,7
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[9,10[;10,8
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[10,11[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[11,12[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[12,13[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[13,14[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[14,15[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[15,16[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[16,17[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[17,18[;10,9
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[18,19[;11,0
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[19,20[;11,1
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[20,21[;11,3
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[21,22[;11,3
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[22,23[;11,2
+1;Avril 2019 - Avril 2020;Box informatique;101;Toutes saisons;[23,24[;11,0
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[0,1[;9,2
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[1,2[;7,6
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[2,3[;6,9
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[3,4[;6,5
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[4,5[;5,9
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[5,6[;5,5
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[6,7[;5,5
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[7,8[;6,5
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[8,9[;7,8
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[9,10[;9,4
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[10,11[;10,5
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[11,12[;11,0
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[12,13[;11,3
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[13,14[;11,5
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[14,15[;12,2
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[15,16[;13,3
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[16,17[;13,8
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[17,18[;15,4
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[18,19[;16,9
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[19,20[;17,1
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[20,21[;17,1
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[21,22[;16,4
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[22,23[;14,1
+1;Avril 2019 - Avril 2020;Autres usages informatique/bureautique;101;Toutes saisons;[23,24[;11,8
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[0,1[;12,9
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[1,2[;8,6
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[2,3[;6,0
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[3,4[;4,7
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[4,5[;4,4
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[5,6[;5,0
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[6,7[;10,1
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[7,8[;18,3
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[8,9[;14,8
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[9,10[;12,1
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[10,11[;11,2
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[11,12[;9,9
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[12,13[;9,0
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[13,14[;7,8
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[14,15[;7,3
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[15,16[;7,9
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[16,17[;9,9
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[17,18[;16,6
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[18,19[;26,3
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[19,20[;35,4
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[20,21[;37,6
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[21,22[;34,5
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[22,23[;28,1
+1;Avril 2019 - Avril 2020;Eclairage;101;Toutes saisons;[23,24[;20,2
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[0,1[;26,9
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[1,2[;27,1
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[2,3[;27,0
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[3,4[;27,1
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[4,5[;27,2
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[5,6[;27,1
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[6,7[;27,4
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[7,8[;27,9
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[8,9[;27,7
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[9,10[;27,3
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[10,11[;27,2
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[11,12[;27,1
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[12,13[;27,1
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[13,14[;27,0
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[14,15[;27,0
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[15,16[;27,1
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[16,17[;27,5
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[17,18[;27,7
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[18,19[;27,5
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[19,20[;27,8
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[20,21[;28,0
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[21,22[;27,5
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[22,23[;27,2
+1;Avril 2019 - Avril 2020;Ventilation;48;Toutes saisons;[23,24[;27,0
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[0,1[;205,0
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[1,2[;204,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[2,3[;207,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[3,4[;208,4
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[4,5[;227,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[5,6[;288,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[6,7[;357,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[7,8[;405,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[8,9[;440,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[9,10[;456,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[10,11[;425,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[11,12[;390,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[12,13[;353,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[13,14[;323,3
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[14,15[;291,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[15,16[;280,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[16,17[;280,0
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[17,18[;282,7
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[18,19[;311,4
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[19,20[;320,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[20,21[;303,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[21,22[;295,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[22,23[;267,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + appoint électrique conséquent (élec tableau);22;Mois de Décembre à Février;[23,24[;221,7
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[0,1[;1,7
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[1,2[;1,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[2,3[;1,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[3,4[;1,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[4,5[;1,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[5,6[;1,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[6,7[;1,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[7,8[;12,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[8,9[;26,4
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[9,10[;13,4
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[10,11[;9,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[11,12[;7,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[12,13[;4,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[13,14[;3,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[14,15[;4,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[15,16[;2,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[16,17[;3,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[17,18[;7,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[18,19[;19,0
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[19,20[;15,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[20,21[;7,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[21,22[;3,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[22,23[;1,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Source principale autre que électrique + petit appoint sur prise de courant;13;Mois de Décembre à Février;[23,24[;1,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[0,1[;751,3
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[1,2[;729,3
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[2,3[;793,2
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[3,4[;811,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[4,5[;850,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[5,6[;959,8
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[6,7[;937,1
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[7,8[;941,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[8,9[;896,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[9,10[;868,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[10,11[;823,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[11,12[;744,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[12,13[;734,4
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[13,14[;723,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[14,15[;673,0
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[15,16[;640,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[16,17[;656,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[17,18[;754,6
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[18,19[;863,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[19,20[;888,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[20,21[;883,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[21,22[;815,5
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[22,23[;761,9
+1;Avril 2019 - Avril 2020;Chauffage électrique_Electrique uniquement;33;Mois de Décembre à Février;[23,24[;726,2
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[0,1[;710
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[1,2[;414
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[2,3[;281
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[3,4[;254
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[4,5[;217
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[5,6[;171
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[6,7[;135
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[7,8[;96
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[8,9[;38
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[9,10[;36
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[10,11[;43
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[11,12[;40
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[12,13[;58
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[13,14[;88
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[14,15[;98
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[15,16[;90
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[16,17[;70
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[17,18[;30
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[18,19[;37
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[19,20[;58
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[20,21[;84
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[21,22[;206
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[22,23[;522
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Toutes saisons;[23,24[;808
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[0,1[;824
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[1,2[;555
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[2,3[;384
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[3,4[;321
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[4,5[;262
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[5,6[;221
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[6,7[;176
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[7,8[;118
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[8,9[;39
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[9,10[;44
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[10,11[;56
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[11,12[;53
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[12,13[;75
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[13,14[;106
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[14,15[;120
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[15,16[;99
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[16,17[;81
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[17,18[;40
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[18,19[;52
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[19,20[;78
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[20,21[;108
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[21,22[;217
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[22,23[;575
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Décembre à Février;[23,24[;900
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[0,1[;538
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[1,2[;230
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[2,3[;156
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[3,4[;174
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[4,5[;158
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[5,6[;113
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[6,7[;94
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[7,8[;67
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[8,9[;34
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[9,10[;28
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[10,11[;25
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[11,12[;23
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[12,13[;40
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[13,14[;61
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[14,15[;71
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[15,16[;73
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[16,17[;55
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[17,18[;23
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[18,19[;24
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[19,20[;33
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[20,21[;55
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[21,22[;177
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[22,23[;433
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Joule;53;Mois de Juin à Aout;[23,24[;661
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[0,1[;92
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[1,2[;104
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[2,3[;129
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[3,4[;87
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[4,5[;48
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[5,6[;31
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[6,7[;28
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[7,8[;61
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[8,9[;70
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[9,10[;78
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[10,11[;76
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[11,12[;69
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[12,13[;73
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[13,14[;68
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[14,15[;70
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[15,16[;67
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[16,17[;60
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[17,18[;65
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[18,19[;70
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[19,20[;99
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[20,21[;130
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[21,22[;145
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[22,23[;187
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Toutes saisons;[23,24[;153
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[0,1[;141
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[1,2[;179
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[2,3[;148
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[3,4[;100
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[4,5[;48
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[5,6[;35
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[6,7[;39
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[7,8[;52
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[8,9[;62
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[9,10[;70
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[10,11[;93
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[11,12[;85
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[12,13[;108
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[13,14[;101
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[14,15[;107
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[15,16[;95
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[16,17[;91
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[17,18[;93
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[18,19[;98
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[19,20[;137
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[20,21[;154
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[21,22[;144
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[22,23[;265
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Décembre à Février;[23,24[;194
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[0,1[;52
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[1,2[;45
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[2,3[;112
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[3,4[;65
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[4,5[;38
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[5,6[;31
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[6,7[;16
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[7,8[;45
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[8,9[;74
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[9,10[;80
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[10,11[;56
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[11,12[;35
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[12,13[;31
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[13,14[;38
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[14,15[;40
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[15,16[;45
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[16,17[;33
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[17,18[;34
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[18,19[;46
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[19,20[;58
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[20,21[;78
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[21,22[;98
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[22,23[;86
+1;Avril 2019 - Avril 2020;Eau chaude sanitaire-Thermodynamique;6;Mois de Juin à Aout;[23,24[;110

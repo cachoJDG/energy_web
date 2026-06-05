@@ -2,11 +2,18 @@ from __future__ import annotations
 
 """Streamlit main app for energy analysis and forecasting."""
 
+import io
+
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import A4, landscape
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.units import inch
+from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 from energy_pipeline import (
     build_ev_charging_recommendation,
@@ -18,6 +25,127 @@ from energy_pipeline import (
     load_consumption_data,
     train_and_forecast,
 )
+
+
+def _format_export_value(value: object) -> str:
+    if isinstance(value, pd.Timestamp):
+        return value.strftime("%Y-%m-%d %H:%M")
+    if isinstance(value, float):
+        return f"{value:.3f}"
+    return str(value)
+
+
+def _dataframe_table(df: pd.DataFrame) -> Table:
+    table_data = [[str(column) for column in df.columns]]
+    table_data.extend([[_format_export_value(value) for value in row] for row in df.itertuples(index=False, name=None)])
+
+    table = Table(table_data, repeatRows=1)
+    table.setStyle(
+        TableStyle(
+            [
+                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#0f172a")),
+                ("TEXTCOLOR", (0, 0), (-1, 0), colors.whitesmoke),
+                ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+                ("FONTSIZE", (0, 0), (-1, -1), 8),
+                ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cbd5e1")),
+                ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f8fafc")]),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ]
+        )
+    )
+    return table
+
+
+def _split_dataframe_for_pdf(df: pd.DataFrame, max_columns: int = 4) -> list[pd.DataFrame]:
+    if df.empty or len(df.columns) <= max_columns:
+        return [df]
+
+    anchor_column = df.columns[0]
+    remaining_columns = list(df.columns[1:])
+    chunk_size = max(max_columns - 1, 1)
+
+    return [df[[anchor_column, *remaining_columns[i : i + chunk_size]]] for i in range(0, len(remaining_columns), chunk_size)]
+
+
+def _plotly_image(fig: go.Figure, width: float = 9.5 * inch, height: float = 4.8 * inch) -> Image:
+    image_bytes = fig.to_image(format="png", width=1400, height=700, scale=2)
+    pdf_image = Image(io.BytesIO(image_bytes))
+    pdf_image.drawWidth = width
+    pdf_image.drawHeight = height
+    return pdf_image
+
+
+def _build_patterns_pdf(
+    heatmap: go.Figure,
+    comparison_chart: go.Figure,
+    heat_pivot: pd.DataFrame,
+    comparison_df: pd.DataFrame,
+) -> bytes:
+    buffer = io.BytesIO()
+    styles = getSampleStyleSheet()
+    doc = SimpleDocTemplate(buffer, pagesize=landscape(A4), leftMargin=24, rightMargin=24, topMargin=24, bottomMargin=24)
+    story = [
+        Paragraph("Energy Patterns Report", styles["Title"]),
+        Paragraph("Export generated from the Patterns tab.", styles["BodyText"]),
+        Spacer(1, 12),
+        Paragraph("Average consumption heatmap by day/hour", styles["Heading2"]),
+        _plotly_image(heatmap),
+        Spacer(1, 10),
+        _dataframe_table(heat_pivot.reset_index()),
+        Spacer(1, 16),
+        Paragraph("Weekday vs weekend comparison", styles["Heading2"]),
+        _plotly_image(comparison_chart),
+        Spacer(1, 10),
+        _dataframe_table(comparison_df),
+    ]
+    doc.build(story)
+    return buffer.getvalue()
+
+
+def _build_recommendations_pdf(
+    recommendations: list[str],
+    shiftable: pd.DataFrame,
+    ev_plan: dict[str, object],
+    best_hour: int,
+) -> bytes:
+    buffer = io.BytesIO()
+    styles = getSampleStyleSheet()
+    doc = SimpleDocTemplate(buffer, pagesize=landscape(A4), leftMargin=24, rightMargin=24, topMargin=24, bottomMargin=24)
+
+    ev_summary = (
+        f"Peak window to avoid: {ev_plan['peak_window']}. "
+        f"Partial charge target: {ev_plan['partial_target_percent']}% during {ev_plan['partial_recommended_window']} "
+        f"({ev_plan['partial_charge_hours']} h, expected overlap reduction {ev_plan['partial_expected_load_drop_kwh']:.2f} kWh). "
+        f"Full top-up target: {ev_plan['full_target_percent']}% during {ev_plan['full_recommended_window']} "
+        f"({ev_plan['full_charge_hours']} h, expected overlap reduction {ev_plan['full_expected_load_drop_kwh']:.2f} kWh)."
+    )
+
+    story = [
+        Paragraph("Energy Recommendations Report", styles["Title"]),
+        Paragraph("Export generated from the Recommendations tab.", styles["BodyText"]),
+        Spacer(1, 12),
+        Paragraph("Automatic recommendations", styles["Heading2"]),
+    ]
+    story.extend(Paragraph(f"- {recommendation}", styles["BodyText"]) for recommendation in recommendations)
+    story.extend([Spacer(1, 12), Paragraph("Shiftable household devices", styles["Heading2"])])
+    for index, shiftable_chunk in enumerate(_split_dataframe_for_pdf(shiftable, max_columns=4), start=1):
+        if len(shiftable.columns) > 4:
+            story.append(Paragraph(f"Table section {index}", styles["BodyText"]))
+        story.append(_dataframe_table(shiftable_chunk))
+        story.append(Spacer(1, 10))
+
+    story.extend(
+        [
+            Paragraph("EV charging strategy", styles["Heading2"]),
+            Paragraph(str(ev_plan["assumption"]), styles["BodyText"]),
+            Spacer(1, 6),
+            Paragraph(ev_summary, styles["BodyText"]),
+            Spacer(1, 12),
+            Paragraph(f"Suggested best hour for shiftable loads: {best_hour:02d}:00.", styles["BodyText"]),
+        ]
+    )
+    doc.build(story)
+    return buffer.getvalue()
 
 
 st.set_page_config(page_title="Energy Consumption Forecast Dashboard", page_icon="⚡", layout="wide")
@@ -256,7 +384,6 @@ with tab_patterns:
         title="Average consumption heatmap by day/hour",
         color_continuous_scale="YlOrRd",
     )
-    st.plotly_chart(heatmap, width="stretch")
 
     p["day_type"] = np.where(p["day_of_week"] >= 5, "Weekend", "Weekday")
     comp = p.groupby(["day_type", "hour"])["consumption_kWh"].mean().reset_index()
@@ -268,7 +395,23 @@ with tab_patterns:
         title="Weekday vs weekend comparison",
         labels={"consumption_kWh": "kWh", "hour": "Hour"},
     )
-    st.plotly_chart(pat_fig, width="stretch")
+
+    try:
+        patterns_pdf = _build_patterns_pdf(heatmap, pat_fig, heat_pivot, comp)
+        st.download_button(
+            "Download Patterns PDF",
+            data=patterns_pdf,
+            file_name="energy-patterns-report.pdf",
+            mime="application/pdf",
+            key="download_patterns_pdf",
+            type="primary",
+            icon=":material/download:",
+        )
+    except Exception as exc:
+        st.error(f"Could not prepare the Patterns PDF export: {exc}")
+
+    st.plotly_chart(heatmap, width="stretch", key="patterns_heatmap_chart")
+    st.plotly_chart(pat_fig, width="stretch", key="patterns_comparison_chart")
 
 with tab_recs:
     recs = generate_recommendations(
@@ -282,6 +425,27 @@ with tab_recs:
         else build_shiftable_load_recommendations(data)
     )
     ev_plan = build_ev_charging_recommendation(data, future_df=artifacts.future_frame)
+    best_hour = (
+        data.assign(hour=data["datetime"].dt.hour)
+        .groupby("hour")["consumption_kWh"]
+        .mean()
+        .sort_values()
+        .index[0]
+    )
+
+    try:
+        recommendations_pdf = _build_recommendations_pdf(recs, shiftable, ev_plan, best_hour)
+        st.download_button(
+            "Download Recommendations PDF",
+            data=recommendations_pdf,
+            file_name="energy-recommendations-report.pdf",
+            mime="application/pdf",
+            key="download_recommendations_pdf",
+            type="primary",
+            icon=":material/download:",
+        )
+    except Exception as exc:
+        st.error(f"Could not prepare the Recommendations PDF export: {exc}")
 
     st.subheader("Automatic recommendations")
     for recommendation in recs:
@@ -302,14 +466,6 @@ with tab_recs:
         f"(about **{ev_plan['partial_charge_hours']} h**, estimated overlap reduction **{ev_plan['partial_expected_load_drop_kwh']:.2f} kWh**).\n"
         f"- For a larger overnight top-up: target **{ev_plan['full_target_percent']}%** during **{ev_plan['full_recommended_window']}** "
         f"(about **{ev_plan['full_charge_hours']} h**, estimated overlap reduction **{ev_plan['full_expected_load_drop_kwh']:.2f} kWh**)."
-    )
-
-    best_hour = (
-        data.assign(hour=data["datetime"].dt.hour)
-        .groupby("hour")["consumption_kWh"]
-        .mean()
-        .sort_values()
-        .index[0]
     )
     st.success(
         f"Suggested hour for shiftable loads: **{best_hour:02d}:00** (lowest historical average)."
