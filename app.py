@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import io
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -67,17 +68,53 @@ def _split_dataframe_for_pdf(df: pd.DataFrame, max_columns: int = 4) -> list[pd.
     return [df[[anchor_column, *remaining_columns[i : i + chunk_size]]] for i in range(0, len(remaining_columns), chunk_size)]
 
 
-def _plotly_image(fig: go.Figure, width: float = 9.5 * inch, height: float = 4.8 * inch) -> Image:
-    image_bytes = fig.to_image(format="png", width=1400, height=700, scale=2)
+def _png_image(image_bytes: bytes, width: float = 9.5 * inch, height: float = 4.8 * inch) -> Image:
     pdf_image = Image(io.BytesIO(image_bytes))
     pdf_image.drawWidth = width
     pdf_image.drawHeight = height
     return pdf_image
 
 
+def _build_heatmap_png(heat_pivot: pd.DataFrame) -> bytes:
+    fig, ax = plt.subplots(figsize=(12, 4.8))
+    image = ax.imshow(heat_pivot.to_numpy(), aspect="auto", cmap="YlOrRd")
+    ax.set_title("Average consumption heatmap by day/hour")
+    ax.set_xlabel("Hour")
+    ax.set_ylabel("Day")
+    ax.set_xticks(range(len(heat_pivot.columns)))
+    ax.set_xticklabels([str(column) for column in heat_pivot.columns], fontsize=8)
+    ax.set_yticks(range(len(heat_pivot.index)))
+    ax.set_yticklabels([str(index) for index in heat_pivot.index], fontsize=9)
+    colorbar = fig.colorbar(image, ax=ax)
+    colorbar.set_label("kWh")
+    fig.tight_layout()
+
+    buffer = io.BytesIO()
+    fig.savefig(buffer, format="png", dpi=180, bbox_inches="tight")
+    plt.close(fig)
+    return buffer.getvalue()
+
+
+def _build_comparison_png(comparison_df: pd.DataFrame) -> bytes:
+    fig, ax = plt.subplots(figsize=(12, 4.8))
+    for day_type, group in comparison_df.groupby("day_type"):
+        ax.plot(group["hour"], group["consumption_kWh"], marker="o", linewidth=2, label=str(day_type))
+
+    ax.set_title("Weekday vs weekend comparison")
+    ax.set_xlabel("Hour")
+    ax.set_ylabel("kWh")
+    ax.set_xticks(range(24))
+    ax.grid(True, alpha=0.25)
+    ax.legend()
+    fig.tight_layout()
+
+    buffer = io.BytesIO()
+    fig.savefig(buffer, format="png", dpi=180, bbox_inches="tight")
+    plt.close(fig)
+    return buffer.getvalue()
+
+
 def _build_patterns_pdf(
-    heatmap: go.Figure,
-    comparison_chart: go.Figure,
     heat_pivot: pd.DataFrame,
     comparison_df: pd.DataFrame,
 ) -> bytes:
@@ -89,12 +126,12 @@ def _build_patterns_pdf(
         Paragraph("Export generated from the Patterns tab.", styles["BodyText"]),
         Spacer(1, 12),
         Paragraph("Average consumption heatmap by day/hour", styles["Heading2"]),
-        _plotly_image(heatmap),
+        _png_image(_build_heatmap_png(heat_pivot)),
         Spacer(1, 10),
         _dataframe_table(heat_pivot.reset_index()),
         Spacer(1, 16),
         Paragraph("Weekday vs weekend comparison", styles["Heading2"]),
-        _plotly_image(comparison_chart),
+        _png_image(_build_comparison_png(comparison_df)),
         Spacer(1, 10),
         _dataframe_table(comparison_df),
     ]
@@ -397,7 +434,7 @@ with tab_patterns:
     )
 
     try:
-        patterns_pdf = _build_patterns_pdf(heatmap, pat_fig, heat_pivot, comp)
+        patterns_pdf = _build_patterns_pdf(heat_pivot, comp)
         st.download_button(
             "Download Patterns PDF",
             data=patterns_pdf,
